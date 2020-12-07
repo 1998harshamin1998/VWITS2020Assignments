@@ -1,0 +1,66 @@
+body{
+	background-color: #E6E6E6;
+}
+
+body > .container{
+	padding-top:60px;
+}
+
+	
+	
+	
+	
+.question-card{
+	margin: 10px;
+	padding:20px;
+	background-color:white;
+	border-radius:5px;
+}
+
+#update-insert-form{	
+	display:none;	
+}
+
+
+
+.update-insert-form-container{
+	margin:auto;
+	padding:20px;
+	background-color:white;
+	border-radius:5px;
+	max-width:700px;
+	text-align:center;
+}
+
+.profile-container{
+	margin:auto;
+	padding:20px;
+	background-color:white;
+	border-radius:5px;
+	max-width:700px;
+}
+.marks-container{
+	margin:auto;
+	padding:20px;
+	background-color:white;
+	border-radius:5px;
+	max-width:550px;
+	text-align:center;
+}
+
+}
+table{
+	text-align:left;
+}
+
+table tr th, table tr td{
+	padding:2px 100px;
+}
+
+.srno{
+	padding:5px;
+}
+
+#btn-profile-submit, #profile-container{
+	display: none;
+}
