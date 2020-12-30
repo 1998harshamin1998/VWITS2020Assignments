@@ -1,0 +1,42 @@
+<taglib>
+   <tlib-version>1.0</tlib-version>
+   <jsp-version>2.0</jsp-version>
+   
+   <tag>
+      <name>dispQuestions</name>
+      <tag-class>com.classroom.main.customTags.DisplayAllQuestions</tag-class>
+      <attribute>
+		<name>questions</name>
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+	  </attribute>
+   </tag>
+   
+    <tag>
+      <name>dispExam</name>
+      <tag-class>com.classroom.main.customTags.DisplayExam</tag-class>
+	  <attribute>
+		<name>question</name>
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+	  </attribute>
+	  
+	  <attribute>
+		<name>questionNumber</name>
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+	  </attribute>
+      
+   </tag>
+   
+   <tag>
+      <name>dispMarkList</name>
+      <tag-class>com.classroom.main.customTags.StudentMarks</tag-class>
+      <attribute>
+		<name>marksList</name>
+		<required>true</required>
+		<rtexprvalue>true</rtexprvalue>
+	  </attribute>
+      
+   </tag>
+</taglib>
